@@ -1,0 +1,78 @@
+.nav{ 
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+    text-decoration: underline dotted ;
+}
+.product{  
+    
+    width:22%;
+    height:auto;
+    background-color:black;
+    float: left;
+    text-align: center; 
+    
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+    border-style:dashed;
+    background-color: bisque;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 10px 10px 10px rgb(144, 122, 122) ;
+    border: 40px solid burlywood dashed
+}
+
+h3{
+    font-size: 30px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    margin: 0;
+    text-align: left;
+}
+
+
+P{
+    color: rgb(33, 32, 32);
+    padding: 0 7px;
+}
+
+.Price {
+    color: rgb(72, 21, 29);
+    font-size: 25px;
+    text-align: left;
+    padding-left: 15px;
+    margin: 0;
+}
+
+img{ 
+    width: 100%;
+    border-radius: 50px 0px 50px 0px;
+    border-bottom: 5px solid crimson;
+
+}
+
+button{  
+
+border-radius: 15px;
+border: 2px solid rgb(90, 10, 10);
+cursor:pointer ;
+background-color:black ;
+color: rgb(229, 199, 199);
+padding: 5px 2px;
+width: 130px;
+font-size: medium;
+font-family: 'Courier New', Courier, monospace;
+border-bottom: 10pm;
+
+
+}
+
+h2{
+    color: blanchedalmond;  
+    float: left;
+    text-align: center; 
+}
