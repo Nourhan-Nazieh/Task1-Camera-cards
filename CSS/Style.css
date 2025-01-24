@@ -1,0 +1,136 @@
+body {
+    margin: auto;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.nav {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 220, 220);
+    box-shadow: 2px 2px 5px rgba(222, 223, 223, 0.9);
+    margin: 50px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    margin-top: 35px;
+    width: 17%;
+    height: auto;
+    background-color: rgb(211, 189, 163);
+    text-align: center;
+    border-radius: 50px 0 50px 0;
+    box-shadow: 10px 10px 10px rgba(106, 95, 95, 0.422);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    font-size: 12px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+h3 {
+    font-size: 24px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+p {
+    color: rgb(33, 32, 32);
+    padding: 0 10px;
+    font-weight: 500;
+}
+
+.Price {
+    color: rgb(72, 21, 29);
+    font-size: 20px;
+    text-align: left;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+img {
+    width: 100%;
+    border-radius: 50px 0 50px 0;
+    border-bottom: 5px solid crimson;
+    margin-bottom: 10px;
+}
+
+button {
+    border-radius: 15px;
+    border: 2px solid rgb(90, 10, 10);
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.895);
+    color: rgb(229, 199, 199);
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .product {
+        width: 45%;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .Price {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .product {
+        width: 90%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .Price {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .product {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .Price {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+}
